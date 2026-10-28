@@ -23,7 +23,7 @@ jobs:
   OpenBSD:
     runs-on: macos-12
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v7
     - uses: vmactions/openbsd-vm@v0
       with:
         prepare: |
